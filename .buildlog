@@ -1,0 +1,261 @@
+---
+build.dart --machine --full
+Uncaught Error: FileSystemException: Cannot open file, path = 'D:\Eigene Dateien\workspace\CodeMenuButton\packages\polymer\builder.dart' (OS Error: Das System kann den angegebenen Pfad nicht finden.
+, errno = 3)
+Stack Trace: 
+#0      _File.open.<anonymous closure> (dart:io/file_impl.dart:349)
+#1      _rootRunUnary (dart:async/zone.dart:730)
+#2      _RootZone.runUnary (dart:async/zone.dart:864)
+#3      _Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:488)
+#4      _Future._propagateToListeners (dart:async/future_impl.dart:571)
+#5      _Future._completeWithValue (dart:async/future_impl.dart:331)
+#6      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:393)
+#7      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#8      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#9      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+
+
+Unhandled exception:
+FileSystemException: Cannot open file, path = 'D:\Eigene Dateien\workspace\CodeMenuButton\packages\polymer\builder.dart' (OS Error: Das System kann den angegebenen Pfad nicht finden.
+, errno = 3)
+#0      _rootHandleUncaughtError.<anonymous closure>.<anonymous closure> (dart:async/zone.dart:713)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#3      _asyncRunCallback (dart:async/schedule_microtask.dart:36)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+build.dart finished [78 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.html --removed=web\clickcounter.html
+Uncaught Error: FileSystemException: Cannot open file, path = 'D:\Eigene Dateien\workspace\CodeMenuButton\packages\polymer\builder.dart' (OS Error: Das System kann den angegebenen Pfad nicht finden.
+, errno = 3)
+Stack Trace: 
+#0      _File.open.<anonymous closure> (dart:io/file_impl.dart:349)
+#1      _rootRunUnary (dart:async/zone.dart:730)
+#2      _RootZone.runUnary (dart:async/zone.dart:864)
+#3      _Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:488)
+#4      _Future._propagateToListeners (dart:async/future_impl.dart:571)
+#5      _Future._completeWithValue (dart:async/future_impl.dart:331)
+#6      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:393)
+#7      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#8      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#9      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+
+
+Unhandled exception:
+FileSystemException: Cannot open file, path = 'D:\Eigene Dateien\workspace\CodeMenuButton\packages\polymer\builder.dart' (OS Error: Das System kann den angegebenen Pfad nicht finden.
+, errno = 3)
+#0      _rootHandleUncaughtError.<anonymous closure>.<anonymous closure> (dart:async/zone.dart:713)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#3      _asyncRunCallback (dart:async/schedule_microtask.dart:36)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+build.dart finished [125 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.dart --removed=web\clickcounter.dart
+Uncaught Error: FileSystemException: Cannot open file, path = 'D:\Eigene Dateien\workspace\CodeMenuButton\packages\polymer\builder.dart' (OS Error: Das System kann den angegebenen Pfad nicht finden.
+, errno = 3)
+Stack Trace: 
+#0      _File.open.<anonymous closure> (dart:io/file_impl.dart:349)
+#1      _rootRunUnary (dart:async/zone.dart:730)
+#2      _RootZone.runUnary (dart:async/zone.dart:864)
+#3      _Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:488)
+#4      _Future._propagateToListeners (dart:async/future_impl.dart:571)
+#5      _Future._completeWithValue (dart:async/future_impl.dart:331)
+#6      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:393)
+#7      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#8      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#9      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+
+
+Unhandled exception:
+FileSystemException: Cannot open file, path = 'D:\Eigene Dateien\workspace\CodeMenuButton\packages\polymer\builder.dart' (OS Error: Das System kann den angegebenen Pfad nicht finden.
+, errno = 3)
+#0      _rootHandleUncaughtError.<anonymous closure>.<anonymous closure> (dart:async/zone.dart:713)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#3      _asyncRunCallback (dart:async/schedule_microtask.dart:36)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+build.dart finished [125 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.dart
+Uncaught Error: FileSystemException: Cannot open file, path = 'D:\Eigene Dateien\workspace\CodeMenuButton\packages\polymer\builder.dart' (OS Error: Das System kann den angegebenen Pfad nicht finden.
+, errno = 3)
+Stack Trace: 
+#0      _File.open.<anonymous closure> (dart:io/file_impl.dart:349)
+#1      _rootRunUnary (dart:async/zone.dart:730)
+#2      _RootZone.runUnary (dart:async/zone.dart:864)
+#3      _Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:488)
+#4      _Future._propagateToListeners (dart:async/future_impl.dart:571)
+#5      _Future._completeWithValue (dart:async/future_impl.dart:331)
+#6      _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:393)
+#7      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#8      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#9      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+
+
+Unhandled exception:
+FileSystemException: Cannot open file, path = 'D:\Eigene Dateien\workspace\CodeMenuButton\packages\polymer\builder.dart' (OS Error: Das System kann den angegebenen Pfad nicht finden.
+, errno = 3)
+#0      _rootHandleUncaughtError.<anonymous closure>.<anonymous closure> (dart:async/zone.dart:713)
+#1      _asyncRunCallbackLoop (dart:async/schedule_microtask.dart:23)
+#2      _asyncRunCallback (dart:async/schedule_microtask.dart:32)
+#3      _asyncRunCallback (dart:async/schedule_microtask.dart:36)
+#4      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:128)
+build.dart finished [109 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"warning","params":{"file":"web/codemenubutton.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"CodeMenuButton\".","line":11,"charStart":339,"charEnd":383}}]
+[{"method":"warning","params":{"file":"web/codemenubutton.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":709,"charEnd":734}}]
+build.dart finished [1841 ms]
+
+---
+build.dart --machine --changed=web\codemenubutton.html
+
+build.dart finished [1468 ms]
+
+---
+build.dart --machine --changed=web\codemenubutton.html
+[{"method":"warning","params":{"file":"web/codemenubutton.html","message":"definition for Polymer element with tag name \"my-toolbar\" not found.","line":18,"charStart":598,"charEnd":618}}]
+build.dart finished [1437 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.html
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-media-query\" not found.","line":4,"charStart":110,"charEnd":200}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-toolbar\" not found.","line":5,"charStart":224,"charEnd":256}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-menu\" not found.","line":8,"charStart":329,"charEnd":386}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":9,"charStart":397,"charEnd":453}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":10,"charStart":476,"charEnd":526}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":11,"charStart":549,"charEnd":611}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":12,"charStart":634,"charEnd":699}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-menu-button\" not found.","line":16,"charStart":797,"charEnd":870}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":17,"charStart":881,"charEnd":937}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":18,"charStart":960,"charEnd":1010}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":19,"charStart":1033,"charEnd":1095}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":20,"charStart":1118,"charEnd":1183}}]
+build.dart finished [1437 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.dart
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-media-query\" not found.","line":4,"charStart":110,"charEnd":200}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-toolbar\" not found.","line":5,"charStart":224,"charEnd":256}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-menu\" not found.","line":8,"charStart":329,"charEnd":386}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":9,"charStart":397,"charEnd":453}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":10,"charStart":476,"charEnd":526}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":11,"charStart":549,"charEnd":611}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":12,"charStart":634,"charEnd":699}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-menu-button\" not found.","line":16,"charStart":797,"charEnd":870}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":17,"charStart":881,"charEnd":937}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":18,"charStart":960,"charEnd":1010}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":19,"charStart":1033,"charEnd":1095}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":20,"charStart":1118,"charEnd":1183}}]
+build.dart finished [1483 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.html
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-toolbar\" not found.","line":6,"charStart":296,"charEnd":328}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-menu\" not found.","line":9,"charStart":401,"charEnd":458}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":10,"charStart":469,"charEnd":525}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":11,"charStart":548,"charEnd":598}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":12,"charStart":621,"charEnd":683}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":13,"charStart":706,"charEnd":771}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-menu-button\" not found.","line":17,"charStart":869,"charEnd":942}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":18,"charStart":953,"charEnd":1009}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":19,"charStart":1032,"charEnd":1082}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":20,"charStart":1105,"charEnd":1167}}]
+[{"method":"warning","params":{"file":"web/my-toolbar.html","message":"definition for Polymer element with tag name \"core-item\" not found.","line":21,"charStart":1190,"charEnd":1255}}]
+build.dart finished [1514 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.html
+
+build.dart finished [1670 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.html
+
+build.dart finished [1623 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.html
+
+build.dart finished [1779 ms]
+
+---
+build.dart --machine --changed=web\codemenubutton.html
+
+build.dart finished [1950 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.dart
+
+build.dart finished [1794 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.html
+
+build.dart finished [1732 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.dart
+
+build.dart finished [1779 ms]
+
+---
+build.dart --machine --changed=web\codemenubutton.html
+
+build.dart finished [1732 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.dart
+
+build.dart finished [1870 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.html
+
+build.dart finished [1934 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.dart
+
+build.dart finished [1779 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.dart
+
+build.dart finished [1957 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.dart
+
+build.dart finished [1734 ms]
+
+---
+build.dart --machine --changed=web\codemenubutton.html
+
+build.dart finished [1778 ms]
+
+---
+build.dart --machine --changed=web\codemenubutton.html
+
+build.dart finished [1880 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.html
+
+build.dart finished [1765 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.dart
+
+build.dart finished [1732 ms]
+
+---
+build.dart --machine --changed=web\my-toolbar.dart
+
+build.dart finished [1868 ms]
+
