@@ -1,0 +1,43 @@
+<link rel="import" href="packages/polymer/polymer.html">
+<link rel="import" href="packages/core_elements/core_media_query.html">
+<link rel="import" href="packages/core_elements/core_toolbar.html">
+<link rel="import" href="packages/core_elements/core_menu.html">
+<link rel="import" href="packages/core_elements/core_item.html">
+<link rel="import" href="packages/core_elements/core_menu_button.html">
+<polymer-element name="my-toolbar">
+  <template>
+    <style>
+    core-item {
+      margin-left: 0.5cm;
+      color: #7D7D7D;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    core-item:hover {
+      color: #000000;
+    }
+    </style>
+    <core-media-query id="MediaQuery" query="{{queryParam}}" queryMatches="{{phoneScreen}}"></core-media-query>
+    <core-toolbar horizonatl layout>
+      <span flex></span>
+      <template if="{{!phoneScreen}}">
+        <core-menu id="HauptMenu" horizontal layout selected="0">
+          <core-item id="menu_1" label="Menu1"></core-item>
+          <core-item id="menu_2" label="Menu2"></core-item>
+          <core-item id="menu_3" label="Menu3"></core-item>
+          <core-item id="menu_4" label="Menu4"></core-item>
+        </core-menu>
+      </template>
+      <template if="{{phoneScreen}}">
+        <core-menu-button icon="menu" id="HauptMenu" halign="right" selected="0">
+          <core-item id="menu_1" label="Menu1"></core-item>
+          <core-item id="menu_2" label="Menu2"></core-item>
+          <core-item id="menu_3" label="Menu3"></core-item>
+          <core-item id="menu_4" label="Menu4"></core-item>
+        </core-menu-button>
+      </template>
+    </core-toolbar>
+  </template>
+  <script type="application/dart" src="my-toolbar.dart"></script>
+</polymer-element>
+
